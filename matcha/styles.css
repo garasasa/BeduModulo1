@@ -1,6 +1,54 @@
-h1  {color:#025157}
-h4  {color:#46484c; font-weight: normal;}
-p   {color:#8b8b8bcc}
-button  {color: #fff; background-color:#025157; border-radius: 8px;padding: 14px;}
-input   {padding: 14px;border-radius: 8px;float:left}
-body    {background-color: #fffbf7; font-family: "open sans","sans-serif";}
+h1  {
+    color:#025157;
+    font-family: "Alegreya", serif;
+    font-weight: 900;
+    font-size: 60px}
+h4  {
+    font-family: 'Slabo 27px', serif;
+    color:#46484c; 
+    font-weight: normal;
+    font-size: 20px;}
+p   {
+    font-family:"open sans" ;
+    color:#8b8b8bcc}
+button  {
+    color: #fff; 
+    background-color:#025157; 
+    border-radius: 8px;
+    padding: 14px;
+    font-family: 'Open Sans', sans-serif;
+    border: 0}
+input   {
+    padding: 14px;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;}
+body    {
+    background-color: #fffbf7; 
+    margin:0 ;}
+.navegadores  {
+    margin: 40px 20px 0;
+    font-size: 0;}
+.cuerpo   {
+    margin-top: 150px;
+    text-align: center;}
+.navegadores li  {
+    display: inline}
+.navegadores > * {
+    display: inline-block; 
+    font-size: 16px;}
+.navegadores .logo  {
+    width: 20%;}
+.cuerpo .imagen-propiedades {
+    width: 100%;
+    max-width: 1000px;
+    }
+.barranav li    {
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 15px;
+}
+.navegadores .acciones button    {
+    color: #fffbf7;
+    background-color: #67b54b;
+    border: 0;
+    margin-left: 16px}
