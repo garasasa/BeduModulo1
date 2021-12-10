@@ -75,3 +75,21 @@ body    {
     font-weight: bolder;
     border-radius: 5px;
     height: 100%}
+.publish h3   {
+    color:#025157; /*comentario de CSS*/
+    font-family: "Alegreya", serif;
+    line-height: 48px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.publish .textopub  {
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 15px;
+    color: #343434;
+}
+/*hasta aqui es la parte de abajo, vamos bien-ish, faltan
+boton y forma*/
+
+/*flexbox*/
+
