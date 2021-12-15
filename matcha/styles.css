@@ -123,3 +123,41 @@ body    {
     background-color: #fffbf7;
 
 }
+.promo  {
+    padding: 50px;
+}
+
+
+/*SESION 4 gridcode*/
+
+.features   {
+    background-color: #025157;
+    display:grid;
+    /*grid-template-columns: repeat (3, 1fr) = 
+    grid-template-columns: 1fr, 1 fr, 1 fr*/
+    /*grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%; =
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);*/
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    height: 660px;
+    padding: 5% 10%;
+}
+
+.features .feature-card  {
+   background-color: #fff;
+   margin: 0 15px 30px;
+   /*top: 0, left & right: 15, bottom: 30*/
+   border: 1px solid #dadada;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   overflow: hidden;
+}
+
+.features .feature-card .feature-content    {
+    padding: 30px 20px 4px 40px;
+}
+
+.feature-content img    {
+    height: 20px;
+}
